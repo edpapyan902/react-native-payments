@@ -22,8 +22,8 @@ export default class PaymentResponse {
   _payerEmail: null | string;
   _completeCalled: boolean;
 
-  constructor(paymentResponse: Object) {
-    // Set properties as readOnly
+  constructor(paymentResponse: Object) {   
+    // Set properties as readOnly   
     this._requestId = paymentResponse.requestId;
     this._methodName = paymentResponse.methodName;
     this._details = paymentResponse.details;
